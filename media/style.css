@@ -1,0 +1,354 @@
+body {
+    margin: 0 auto;
+    font-family: "Roboto Condensed", sans-serif;
+    overflow-x: hidden
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0 auto;
+}
+
+.main_container {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 800px;
+    background: radial-gradient(44.00% 50.00% at 50% 50%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0) 100%), rgb(198, 212, 221);
+}
+
+.growth_left_top {
+    position: absolute;
+    left: -173px;
+    top: -143px;
+    z-index: 1;
+}
+
+.growth_left_center {
+    position: absolute;
+    left: -106px;
+    top: 222px;
+}
+
+.growth_left_bottom {
+    position: absolute;
+    left: -260px;
+    top: 426px;
+}
+
+.growth_rigth_top {
+    position: absolute;
+    right: -144px;
+    top: -125px;
+    z-index: 1;
+}
+
+.growth_rigth_bottom {
+    position: absolute;
+    right: -45px;
+    top: 190px;
+}
+
+.img_0_percent {
+    position: absolute;
+    right: 49px;
+    bottom: 50px;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_content nav {
+    margin-top: 55px;
+}
+
+.navigation {
+    display: flex;
+    gap: 102px;
+
+}
+
+.navigation_link {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    opacity: 0.3;
+}
+
+.nav_link_active {
+    opacity: 1;
+}
+
+.navigation_text {
+    color: rgba(5, 47, 107);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.img_logo {
+    margin-top: 70px;
+    margin-bottom: 29px;
+    width: 380px;
+    height: 380px;
+}
+
+.feature {
+    display: flex;
+    gap: 112px;
+    text-align: center;
+}
+
+.feature_text {
+    text-transform: uppercase;
+    width: 120px;
+    color: rgb(113, 148, 162);
+    font-family: Roboto Condensed;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.section_nav {
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+.section_nav_content {
+    display: flex;
+    height: 58px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    width: 69px;
+    height: 36px;
+    padding-left: 57px;
+}
+
+.block {
+    width: 69px;
+    padding-left: 57px;
+}
+
+.scroll_1 {
+    margin-top: 56px;
+}
+
+.section_2 {
+    background: rgb(198, 212, 221);
+    padding-top: 162px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_content {
+    position: relative;
+    width: 297px;
+    height: 420px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+
+}
+
+.product_growth {
+    position: absolute;
+    left: 19px;
+    top: -87px;
+}
+
+.product_content_hide {
+    position: absolute;
+    overflow: hidden;
+    width: 297px;
+    height: 420px;
+}
+
+.product_beer_1 {
+    position: absolute;
+    left: 104px;
+    top: -110px;
+}
+
+.product_beer_2 {
+    position: absolute;
+    left: 86px;
+    top: -56px;
+}
+
+.product_beer_3 {
+    position: absolute;
+    left: 87px;
+    top: -109px;
+}
+
+.product_beer_4 {
+    position: absolute;
+    left: 99px;
+    top: -110px;
+}
+
+.product_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: end;
+    z-index: 1;
+}
+
+.product_title {
+    color: rgb(5, 47, 107);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.product_title::after {
+    content: '®';
+    color: rgb(5, 47, 107);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    position: absolute;
+}
+
+.product_text {
+    color: rgb(5, 47, 107);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 30px;
+}
+
+.section_2_content {
+    text-align: center;
+    position: relative;
+}
+
+.scroll_2 {
+    margin-top: 88px;
+    position: relative;
+    z-index: 1;
+}
+
+.section_2_growth {
+    position: absolute;
+    top: 326px;
+    left: 320px;
+}
+
+.section_3 {
+    margin-top: 72px;
+    margin-bottom: 60px;
+}
+
+.section_3_content {
+    text-align: center;
+}
+
+.section_3_title {
+    color: rgb(0, 47, 106);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.section_3_nav {
+    display: flex;
+    gap: 52px;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.nav_city {
+    display: flex;
+    gap: 10px;
+    margin-right: 412px;
+    align-items: center;
+}
+
+.nav_city_text {
+    color: rgb(0, 47, 106);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.nav_city_icon {
+    width: 10px;
+    height: 10px;
+}
+
+.nav_city_blockv {
+    width: 70px;
+}
+
+.nav_button {
+    width: 108px;
+    height: 40px;
+    color: rgb(5, 47, 107);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_button_action {
+    border: 2px solid rgb(5, 47, 107);
+}
+
+.section_3_map {
+    text-align: center;
+    background-image: url("img/map.png");
+    height: 488px;
+}
+
+
+.section_3_text {
+    margin-top: 22px;
+    color: rgb(5, 47, 107);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.section_3_text_link {
+    text-decoration: underline;
+}
+
+.footer {
+    background: rgb(5, 47, 107);
+    padding: 34px 0;
+}
+
+.footer_contnent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
